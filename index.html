@@ -9,58 +9,89 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Iceman Media -Photo- and Videography</title>
 </head>
+	<!--I have a separate CSS file, but for some reason codes does not work there-->
     <style>
         body {
-        background-image: url('https://i.postimg.cc/pLVXT9XY/istockphoto-                                    639173848-612x612.jpg');
+        background-image: url('https://i.postimg.cc/pLVXT9XY/istockphoto-639173848-612x612.jpg');
         }
+		
+		img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		}
+
+		#header {
+			width: 100%;
+			background-color: #e4dcd1;
+		}
+
+		#first {
+			width: 90%;
+			align-self: center;
+		}
+
+		#width-15 {
+			width: 15%;
+		}
+
+		.text-center {
+	            text-align: center;
+                }
+
+        .text-tan {
+	            color: #e4dcd1;
+                }
+
+        .bold {
+	            font-weight: bold;
+                }
     </style>
-<body>
-    <table id="header" border="0" width="100%"
-		    cellpadding="0" cellspacing="0" bgcolor="E4DCD1">
+<body>			
+    <table id="header">
 		      <tr>
 		        <td>
-			        <table border="0" cellpadding="15"
-				        cellspacing="0" width="90%" align="center">
+			        <table id="first">
 			    <tr>
 				<td>
 				</td>
-            <td>
-					     <font face="cursive" size="7">
+            	<td>
+					     <p style="font-family: cursive; font-size: 35px;" >
 						    <b>Iceman Media</b>
-					     </font>
+						 </p>
 				    </td>
-				<td width="15%">
+				<td id="width-15">
 				</td>
 				    <td>
 					    <a href="#home" style="text-decoration:none">
-						    <font face="cursive" size="5" color=black>
+						    <p style="font-family: cursive; font-size: 30px; color: black;">
 							   Home
-						    </font>
+							</p>
 					    </a>
 				    </td>
 				<td>
 				</td>
 				    <td>
 					    <a href="#whoiam" style="text-decoration:none" aria-label="Jump to the introduction">
-						    <font face="cursive" size="5" color=black>
+						    <p style="font-family: cursive; font-size: 30px; color: black;">
 							   Who I am...
-						    </font>
+							</p>
 					    </a>
 				    </td>
 				<td>
 				</td>
 				    <td>
 					    <a href="#projects" style="text-decoration:none" aria-label="Jump to the projects">
-						    <font face="cursive" size="5" color=black>
+						    <p style="font-family: cursive; font-size: 30px; color: black;">
 							   Projects
-						    </font>
+							</p>
 					    </a>
 				    </td>
-      	    <td>
+      	    		<td>
 					    <a href="#contact" style="text-decoration:none" aria-label="Jump to the contact section">
-						    <font face="cursive" size="5" color=black>
+						    <p style="font-family: cursive; font-size: 30px; color: black;">
 							   Contact
-						    </font>
+							</p>
 					    </a>
 				    </td>
 				  </tr>
@@ -68,38 +99,18 @@
 			</td>
 		</tr>
 	</table>
-	<hr color="E4DCD1">
+	<!--Header end-->
+	<hr>
         <header>
             <figure>
-                <figcaption>Iceman Media Logo</figcaption>
-                <img src="https://i.postimg.cc/j5K9hfwL/2-Copy.jpg" alt="iceman media logo" height="auto">
-                <style>
-                	img {
-                	display: block;
-                	margin-left: auto;
-                	margin-right: auto;
-                	}
-            	</style>
+                <img src="https://i.postimg.cc/j5K9hfwL/2-Copy.jpg" alt="iceman media logo" height="150">
             </figure>
         </header>
 		<div class="text-center text-tan" style="font-family: cursive;">
-            <style>
-                .text-center {
-	            text-align: center;
-                }
-
-                .text-tan {
-	            color: #e4dcd1;
-                }
-
-                .bold {
-	            font-weight: bold;
-                }
-            </style>
             <h1>Welcome to the world of Iceman Media</h1>
             <p><em>“If it excites me, there is a good chance it will make a good photograph.”</em><br>- Ansel Adams
             </p>
         </div>
-    <hr color="E4DCD1">
+    <hr>
 </body>
 </html>
