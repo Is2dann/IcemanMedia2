@@ -9,16 +9,19 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Iceman Media -Photo- and Videography</title>
 </head>
-	<!--I have a separate CSS file, but for some reason codes does not work there-->
+	<!--I have a separate CSS file, but for some reason codes does not work there. Here they are works like a charm.-->
     <style>
         body {
-        background-image: url('https://i.postimg.cc/pLVXT9XY/istockphoto-639173848-612x612.jpg');
+        	background-image: url('https://i.postimg.cc/pLVXT9XY/istockphoto-639173848-612x612.jpg');
         }
 		
 		img {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
+			display: block;
+  			margin-left: auto;
+  			margin-right: auto;
+			max-width: 100%;
+			height: auto;
+			
 		}
 
 		#header {
@@ -31,23 +34,57 @@
 			align-self: center;
 		}
 
-		#width-15 {
-			width: 15%;
+		.width-15 {
+			width: 10%;
 		}
 
 		.text-center {
-	            text-align: center;
-                }
+	        text-align: center;
+        }
 
         .text-tan {
-	            color: #e4dcd1;
-                }
+	        color: #e4dcd1;
+        }
 
         .bold {
-	            font-weight: bold;
-                }
+	        font-weight: bold;
+        }
+
+		hr {
+  			background-color: #E4DCD1;
+			border-top: 15px;
+			height: 8px;
+        }
+
+		.styled {
+  			border: 0;
+  			line-height: 2.5;
+  			padding: 10px 20px;
+  			font-family: cursive;
+  			font-size: 1rem;
+  			text-align: center;
+  			color: #000;
+  			text-shadow: 1px 1px 1px #fff;
+  			border-radius: 10px;
+  			background-color: #E4DCD1;
+  			background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+  			box-shadow:
+          		inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+          		inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  		}
+
+		.styled:hover {
+  			background-color: rgba(255, 0, 0, 1);
+  		}
+
+		.styled:active {
+  			box-shadow:
+          		inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+          		inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+  		}
     </style>
-<body>			
+<body>
+	<!--Iceman Media header start-->			
     <table id="header">
 		      <tr>
 		        <td>
@@ -56,11 +93,11 @@
 				<td>
 				</td>
             	<td>
-					     <p style="font-family: cursive; font-size: 35px;" >
-						    <b>Iceman Media</b>
-						 </p>
-				    </td>
-				<td id="width-15">
+					<p style="font-family: cursive; font-size: 35px;" >
+						<b>Iceman Media</b>
+					</p>
+				</td>
+				<td class="width-15">
 				</td>
 				    <td>
 					    <a href="#home" style="text-decoration:none">
@@ -69,7 +106,7 @@
 							</p>
 					    </a>
 				    </td>
-				<td>
+				<td class="width-15">
 				</td>
 				    <td>
 					    <a href="#whoiam" style="text-decoration:none" aria-label="Jump to the introduction">
@@ -78,7 +115,7 @@
 							</p>
 					    </a>
 				    </td>
-				<td>
+				<td class="width-15">
 				</td>
 				    <td>
 					    <a href="#projects" style="text-decoration:none" aria-label="Jump to the projects">
@@ -87,7 +124,9 @@
 							</p>
 					    </a>
 				    </td>
-      	    		<td>
+      	    	<td class="width-15">
+				</td>
+					<td>
 					    <a href="#contact" style="text-decoration:none" aria-label="Jump to the contact section">
 						    <p style="font-family: cursive; font-size: 30px; color: black;">
 							   Contact
@@ -101,16 +140,63 @@
 	</table>
 	<!--Header end-->
 	<hr>
+	<!--Iceman media logo-->
         <header>
             <figure>
-                <img src="https://i.postimg.cc/j5K9hfwL/2-Copy.jpg" alt="iceman media logo" height="150">
+                <img src="https://i.postimg.cc/j5K9hfwL/2-Copy.jpg" alt="iceman media logo">
             </figure>
         </header>
+	<!--Iceman media logo end-->
+	<!--Quirky quote-->
 		<div class="text-center text-tan" style="font-family: cursive;">
             <h1>Welcome to the world of Iceman Media</h1>
             <p><em>“If it excites me, there is a good chance it will make a good photograph.”</em><br>- Ansel Adams
             </p>
         </div>
+	<!--Quirky quote end-->
     <hr>
+	<!--Introduction-->
+		<div class="text-center text-tan" style="font-family: cursive;" id="whoiam">
+				<p style="font-family: cursive; font-size: 40px; color: #E4DCD1;">
+					<strong>Who I am...</strong>
+				</p>
+				<p style="font-size: 20px;"> Hey there!<br> My name is Dan. I am a Hungarian guy living in England.<br>
+					Photography is my hobby, which I am trying to do as much as I can in my free time.<br>
+					As a car enthusiast, my main topic in photography is cars, carmeets, carshows,
+					but when I can, I go out for a stroll in the "wild" and if I see something worthy for a good shot, I will take it.<br>
+					As I have only started to go deeper in the world of photography my media pages are still in the early stages, but it still has a lot to offer.<br>
+					You can check it out yourself by clicking any of the button below.
+				</p>
+				<a target="_blank" class="styled" href="https://www.instagram.com/iceman_media" aria-label="Go to Iceman Media on Instagram (opens in a new tab)">
+					Iceman Media on Instagram
+				</a>
+				<br>
+				<a target="_blank" class="styled" href="https://www.instagram.com/is2_dann" aria-label="Go to IS2Dann on Instagram (opens in a new tab)">
+					My Pride and Joy on Instagram
+				</a>
+				<p>Please like and share if you wish</p>
+		</div>
+	<!--Introduction end-->
+	<hr>
+	<!--Intro picture-->
+		<fieldset>
+			<legend class="text-tan" style="font-family: cursive;">Myself with my pride and joy</legend>
+			<img src="https://i.postimg.cc/gcT9Gb0s/IMG-0238-1.jpg" alt="Me with my car">
+		</fieldset>
+	<!--Intro picture end-->
+		<div class="text-center text-tan" style="font-family: cursive;">
+			<fieldset>
+				<legend>
+					<h2>Ingredients for good photo</h2>
+				</legend>
+					<p style="font-size: 20px;">A photographer<br>
+						A fair camera or smartphone<br>
+						Good content<br>
+						Some tech device for trick shots<br>
+						A good photo editor along with a video editor<br>
+						<br>But most importantly:<h4 style="font-size: 20px;"><em>Good Ideas!!!</em></h4>
+					</p>
+			</fieldset>
+		</div>
 </body>
 </html>
