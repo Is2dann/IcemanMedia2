@@ -52,9 +52,16 @@
 
 		hr {
   			background-color: #E4DCD1;
-			border-top: 15px;
+			border-radius: 15px;
 			height: 8px;
         }
+
+		hr .width-90 {
+			background-color: #E4DCD1;
+			border-radius: 15px;
+			height: 8px;
+			width: 10px;
+		}
 
 		.styled {
   			border: 0;
@@ -74,7 +81,7 @@
   		}
 
 		.styled:hover {
-  			background-color: rgba(255, 0, 0, 1);
+  			background-color: rgb(255, 255, 255);
   		}
 
 		.styled:active {
@@ -82,6 +89,11 @@
           		inset -2px -2px 3px rgba(255, 255, 255, 0.6),
           		inset 2px 2px 3px rgba(0, 0, 0, 0.6);
   		}
+
+		.center {
+			margin-left: auto;
+			margin-right: auto;
+		}
     </style>
 <body>
 	<!--Iceman Media header start-->			
@@ -160,6 +172,7 @@
 				<p style="font-family: cursive; font-size: 40px; color: #E4DCD1;">
 					<strong>Who I am...</strong>
 				</p>
+			<hr style="width: 20%;">
 				<p style="font-size: 20px;"> Hey there!<br> My name is Dan. I am a Hungarian guy living in England.<br>
 					Photography is my hobby, which I am trying to do as much as I can in my free time.<br>
 					As a car enthusiast, my main topic in photography is cars, carmeets, carshows,
@@ -184,6 +197,8 @@
 			<img src="https://i.postimg.cc/gcT9Gb0s/IMG-0238-1.jpg" alt="Me with my car">
 		</fieldset>
 	<!--Intro picture end-->
+	
+	<!--Good advice recipe-->
 		<div class="text-center text-tan" style="font-family: cursive;">
 			<fieldset>
 				<legend>
@@ -198,5 +213,57 @@
 					</p>
 			</fieldset>
 		</div>
+	<!--Good advice recipe end-->
+	<hr>
+	<!--Projects-->
+	<section class="text-center text-tan" style="font-family: cursive;">
+		<table id="projects" width="100%">
+		<tr>
+			<td>
+				<table style="width: 80%;" class="center">
+					<tr>
+						<td style="height: 180px; vertical-align: middle;" class="center" colspan="2">
+							<p style="font-family: cursive; font-size: 40px; color: #E4DCD1;">
+								<strong>Projects</strong>
+							</p>
+								<hr style="width: 15%;">
+						</td>
+					</tr>
+					<tr>
+						<td height="10">
+							<font face="cursive"
+								size="4" color="E4DCD1">								
+									<details>
+                      <summary>Photo- and videography</summary>
+										    <p>
+                         As an amateur photographer, I haven't really divulge myself into the depths of photography.<br>
+                         Right now it is only a hobby, but I have plans to spend more and more time practicing and connect this hobby to another plan I have.<br>
+                         You can read about this plan later.
+                        </p>
+                  </details>
+									    <hr color="E4DCD1">
+									<details>
+										<summary>My Pride and Joy</summary>
+										    <p>
+                        My baby is a 2005 Lexus IS250, which I have bought in 2020.
+                        </p>
+									</details>
+                      <hr color="E4DCD1">
+									<details>
+										  <summary>Future plans</summary>
+										    <p>
+                        I recently started learning coding, which will lead me to a better understanding of websites, automation etc.<br>
+                        As an amateur photographer/coder/carenthusiast will be able to provide full service for someone who wants to have a proper website for their own or company.
+                        </p>
+									</details>                                
+              </font>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    </table>
+	</section>
+	<!--Projects end-->
 </body>
 </html>
