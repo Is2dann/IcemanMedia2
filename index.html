@@ -8,9 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Iceman Media -Photo- and Videography</title>
-</head>
 	<!--I have a separate CSS file, but for some reason codes does not work there. Here they are works like a charm.-->
     <style>
+		html {
+    		height: auto;
+    		width: auto;
+  		}
         body {
         	background-image: url('https://i.postimg.cc/pLVXT9XY/istockphoto-639173848-612x612.jpg');
         }
@@ -45,6 +48,10 @@
         .text-tan {
 	        color: #e4dcd1;
         }
+
+		.text-white {
+			color: white;
+		}
 
         .bold {
 	        font-weight: bold;
@@ -94,7 +101,12 @@
 			margin-left: auto;
 			margin-right: auto;
 		}
+
+		details > summary {
+			cursor: pointer;
+		}
     </style>
+</head>
 <body>
 	<!--Iceman Media header start-->			
     <table id="header">
@@ -268,5 +280,104 @@
     	</table>
 	</section>
 	<!--Projects end-->
+		<br><br><br><br><br><br>
+<hr>
+	<!--Contact sheet-->
+	<table id="contact" border="0" width="100%" cellpadding="0" cellspacing="0" >
+        <tr>
+            <td>
+                <table border="0" cellpadding="15"
+                cellspacing="0" width="80%" align="center">
+        <tr>
+            <td height="180" align="center"
+                valign="middle" colspan="2">
+                    <div style="font-family: cursive; font-size: 40px; color: #E4DCD1;">
+                    	<strong>Contact</strong>
+					</div>
+                  <hr style="width: 15%;">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" valign="top">
+                <table border="0" width="50%" cellpadding="15"
+                    cellspacing="0" align="center" bgcolor="E4DCD1">
+        <tr>
+            <td width="30%"><br>
+                <div style="font-family: cursive; font-size: 20px; color: #000;">
+                    Name
+				</div>
+            </td>
+            <td width="70%"><br>
+                <div style="font-family: cursive; font-size: 20px; color: #fff;">
+                    <input type="text" size="40" placeholder="John Doe">
+				</div>
+            </td>
+        </tr>
+
+        <tr>
+            <td width="30%">
+                <div style="font-family: cursive; font-size: 20px; color: #000;">
+                    Email
+				</div>
+            </td>
+            <td width="70%">
+                <div style="font-family: cursive; font-size: 20px; color: #fff;">
+                    <input type="email" size="40" placeholder="Your Email" required>
+				</div>
+            </td>
+        </tr>
+
+        <tr>
+            <td width="30%">
+                <div style="font-family: cursive; font-size: 20px; color: #000;">
+                    Number
+				</div>
+            </td>
+            <td width="70%">
+                <div style="font-family: cursive; font-size: 20px; color: #fff;">
+                    <input type="tel" size="12" placeholder="mobile number">
+				</div>
+            </td>
+        </tr>
+
+        <tr>
+            <td width="30%">
+                <div style="font-family: cursive; font-size: 20px; color: #000;">
+                    Message
+				</div>
+            </td>
+            <td width="70%">
+                <div style="font-family: cursive; font-size: 20px; color: #fff;">
+                    <textarea rows="5" cols="37">
+                    </textarea>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td width="30%">
+            </td>
+            <td width="70%">
+                <button type="Submit">
+                    <div style="font-family: cursive; font-size: 20px; color: #000;">
+                        <b>Send it!</b>
+                    </div>
+                </button>
+                <br><br>
+            </td>
+        </tr>
+    </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+            </td>
+        </tr>
+    </table>
+            </td>
+    </tr>
+</table>
+	<!--Contact sheet end-->
 </body>
 </html>
