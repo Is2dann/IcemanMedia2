@@ -124,19 +124,25 @@
 			font-family: cursive;
 			font-size: 25px;
 			text-align: center;
-			padding: 10px;
+			padding: 1px;
 			background-color: #E4DCD1;
 			color: #000;
 		}
 
-		input[type=text], input[type=url], input[type=email], input[type=password], input[type=tel] {
- 			-webkit-appearance: none; -moz-appearance: none;
- 			display: block;
- 			margin: 0;
- 			width: 100%; height: 40px;
- 			line-height: 40px; font-size: 17px;
- 			border: 1px solid #bbb;
+		a:hover {
+			color: aqua;
+			text-decoration: none;
 		}
+
+		a:active {
+			color: black;
+			text-decoration: none;
+		}
+
+		input:focus {
+			background-color: aqua;
+		}
+
     </style>
 </head>
 <body>
@@ -156,18 +162,9 @@
 				<td class="width-15">
 				</td>
 				    <td>
-					    <a href="#home" style="text-decoration:none">
-						    <p style="font-family: cursive; font-size: 30px; color: black;">
-							   Home
-							</p>
-					    </a>
-				    </td>
-				<td class="width-15">
-				</td>
-				    <td>
 					    <a href="#whoiam" style="text-decoration:none" aria-label="Jump to the introduction">
-						    <p style="font-family: cursive; font-size: 30px; color: black;">
-							   Who I am...
+						    <p style="font-family: cursive; font-size: 30px; color: rgb(0, 0, 0,);">
+							   <b>Who I am...</b>
 							</p>
 					    </a>
 				    </td>
@@ -175,8 +172,8 @@
 				</td>
 				    <td>
 					    <a href="#projects" style="text-decoration:none" aria-label="Jump to the projects">
-						    <p style="font-family: cursive; font-size: 30px; color: black;">
-							   Projects
+						    <p style="font-family: cursive; font-size: 30px; color: rgb(0, 0, 0,);">
+							   <b>Projects</b>
 							</p>
 					    </a>
 				    </td>
@@ -184,8 +181,8 @@
 				</td>
 					<td>
 					    <a href="#contact" style="text-decoration:none" aria-label="Jump to the contact section">
-						    <p style="font-family: cursive; font-size: 30px; color: black;">
-							   Contact
+						    <p style="font-family: cursive; font-size: 30px; color: rgb(0, 0, 0,);">
+							   <b>Contact</b>
 							</p>
 					    </a>
 				    </td>
