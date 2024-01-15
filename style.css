@@ -1,0 +1,166 @@
+html {
+    height: auto;
+    width: auto;
+  }
+body {
+    background-image: url('https://i.postimg.cc/pLVXT9XY/istockphoto-639173848-612x612.jpg');
+    margin: auto;
+}
+
+img {
+    display: block;
+      margin-left: auto;
+      margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+#header {
+    width: 100%;
+    background-color: #e4dcd1;
+}
+
+#first {
+    width: 90%;
+    align-self: center;
+}
+
+.width-15 {
+    width: 15%;
+}
+
+.width-30 {
+    width: 30%;
+}
+
+.width-70 {
+    width: 70%;
+}
+
+.width-full {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-tan {
+    color: #e4dcd1;
+}
+
+.text-white {
+    color: white;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+hr {
+      background-color: #E4DCD1;
+    border-radius: 15px;
+    height: 8px;
+}
+
+hr .width-90 {
+    background-color: #E4DCD1;
+    border-radius: 15px;
+    height: 8px;
+    width: 10px;
+}
+
+.styled {
+      border: 0;
+      line-height: 2.5;
+      padding: 10px 20px;
+      font-family: cursive;
+      font-size: 1rem;
+      text-align: center;
+      color: #000;
+      text-shadow: 1px 1px 1px #fff;
+      border-radius: 10px;
+      background-color: #E4DCD1;
+      background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+      box-shadow:
+          inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+          inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  }
+
+.styled:hover {
+      background-color: rgb(255, 255, 255);
+  }
+
+.styled:active {
+      box-shadow:
+          inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+          inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+  }
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+details > summary {
+    cursor: pointer;
+}
+
+.top {
+    place-self: end;
+    position: sticky;
+    bottom: 20px;
+    margin-left: 20px;
+    margin-top: 100vh;
+    text-decoration: none;
+    padding: 10px;
+    font-family: cursive;
+    color: #000;
+    background: #E4DCD1;
+    border-radius: 50px;
+}
+
+footer {
+    font-family: cursive;
+    font-size: 25px;
+    text-align: center;
+    padding: 1px;
+    background-color: #E4DCD1;
+    color: #000;
+}
+
+a:hover {
+    color: aqua;
+    text-decoration: none;
+}
+
+a:active {
+    color: black;
+    text-decoration: none;
+}
+
+input:focus {
+    background-color: aqua;
+}
+
+* {
+    font-family: cursive;
+}
+
+.font-30 {
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.font-40 {
+    font-size: 40px;
+}
+
+.font-40-tan {
+    font-size: 40px;
+    color: #E4DCD1;
+}
+
+.font-20 {
+    font-size: 20px;
+}

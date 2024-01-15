@@ -6,144 +6,8 @@
     <meta name="author" content="Daniel Bodnar">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link href="style.css" rel="stylesheet">
     <title>Iceman Media -Photo- and Videography</title>
-	<!--I have a separate CSS file, but for some reason codes does not work there. Here they are works like a charm.-->
-    <style>
-		html {
-    		height: auto;
-    		width: auto;
-  		}
-        body {
-        	background-image: url('https://i.postimg.cc/pLVXT9XY/istockphoto-639173848-612x612.jpg');
-			margin: auto;
-        }
-		
-		img {
-			display: block;
-  			margin-left: auto;
-  			margin-right: auto;
-			max-width: 100%;
-			height: auto;
-		}
-
-		#header {
-			width: 100%;
-			background-color: #e4dcd1;
-		}
-
-		#first {
-			width: 90%;
-			align-self: center;
-		}
-
-		.width-15 {
-			width: 10%;
-		}
-
-		.text-center {
-	        text-align: center;
-        }
-
-        .text-tan {
-	        color: #e4dcd1;
-        }
-
-		.text-white {
-			color: white;
-		}
-
-        .bold {
-	        font-weight: bold;
-        }
-
-		hr {
-  			background-color: #E4DCD1;
-			border-radius: 15px;
-			height: 8px;
-        }
-
-		hr .width-90 {
-			background-color: #E4DCD1;
-			border-radius: 15px;
-			height: 8px;
-			width: 10px;
-		}
-
-		.styled {
-  			border: 0;
-  			line-height: 2.5;
-  			padding: 10px 20px;
-  			font-family: cursive;
-  			font-size: 1rem;
-  			text-align: center;
-  			color: #000;
-  			text-shadow: 1px 1px 1px #fff;
-  			border-radius: 10px;
-  			background-color: #E4DCD1;
-  			background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
-  			box-shadow:
-          		inset 2px 2px 3px rgba(255, 255, 255, 0.6),
-          		inset -2px -2px 3px rgba(0, 0, 0, 0.6);
-  		}
-
-		.styled:hover {
-  			background-color: rgb(255, 255, 255);
-  		}
-
-		.styled:active {
-  			box-shadow:
-          		inset -2px -2px 3px rgba(255, 255, 255, 0.6),
-          		inset 2px 2px 3px rgba(0, 0, 0, 0.6);
-  		}
-
-		.center {
-			margin-left: auto;
-			margin-right: auto;
-		}
-
-		details > summary {
-			cursor: pointer;
-		}
-
-		.top {
-			place-self: end;
-			position: sticky;
-			bottom: 20px;
-			margin-left: 20px;
-			margin-top: 100vh;
-			text-decoration: none;
-			padding: 10px;
-			font-family: cursive;
-			color: #000;
-			background: #E4DCD1;
-			border-radius: 50px;
-		}
-
-		footer {
-			font-family: cursive;
-			font-size: 25px;
-			text-align: center;
-			padding: 1px;
-			background-color: #E4DCD1;
-			color: #000;
-		}
-
-		a:hover {
-			color: aqua;
-			text-decoration: none;
-		}
-
-		a:active {
-			color: black;
-			text-decoration: none;
-		}
-
-		input:focus {
-			background-color: aqua;
-		}
-
-    </style>
 </head>
 <body>
 	<!--Iceman Media header start-->			
@@ -155,7 +19,7 @@
 				<td>
 				</td>
             	<td>
-					<p style="font-family: cursive; font-size: 35px;" >
+					<p class="font-40">
 						<b>Iceman Media</b>
 					</p>
 				</td>
@@ -163,7 +27,7 @@
 				</td>
 				    <td>
 					    <a href="#whoiam" style="text-decoration:none" aria-label="Jump to the introduction">
-						    <p style="font-family: cursive; font-size: 30px; color: rgb(0, 0, 0,);">
+						    <p class="font-30">
 							   <b>Who I am...</b>
 							</p>
 					    </a>
@@ -172,7 +36,7 @@
 				</td>
 				    <td>
 					    <a href="#projects" style="text-decoration:none" aria-label="Jump to the projects">
-						    <p style="font-family: cursive; font-size: 30px; color: rgb(0, 0, 0,);">
+						    <p class="font-30">
 							   <b>Projects</b>
 							</p>
 					    </a>
@@ -181,7 +45,7 @@
 				</td>
 					<td>
 					    <a href="#contact" style="text-decoration:none" aria-label="Jump to the contact section">
-						    <p style="font-family: cursive; font-size: 30px; color: rgb(0, 0, 0,);">
+						    <p class="font-30">
 							   <b>Contact</b>
 							</p>
 					    </a>
@@ -201,7 +65,7 @@
         </header>
 	<!--Iceman media logo end-->
 	<!--Quirky quote-->
-		<div class="text-center text-tan" style="font-family: cursive;">
+		<div class="text-center text-tan">
             <h1>Welcome to the world of Iceman Media</h1>
             <p><em>“If it excites me, there is a good chance it will make a good photograph.”</em><br>- Ansel Adams
             </p>
@@ -209,12 +73,12 @@
 	<!--Quirky quote end-->
     <hr>
 	<!--Introduction-->
-		<div class="text-center text-tan" style="font-family: cursive;" id="whoiam">
-				<p style="font-family: cursive; font-size: 40px; color: #E4DCD1;">
+		<div class="text-center text-tan" id="whoiam">
+				<p class="font-40">
 					<strong>Who I am...</strong>
 				</p>
-			<hr style="width: 20%;">
-				<p style="font-size: 20px;"> Hey there!<br> My name is Dan. I am a Hungarian guy living in England.<br>
+			<hr class="width-15">
+				<p class="font-20"> Hey there!<br> My name is Dan. I am a Hungarian guy living in England.<br>
 					Photography is my hobby, which I am trying to do as much as I can in my free time.<br>
 					As a car enthusiast, my main topic in photography is cars, carmeets, carshows,
 					but when I can, I go out for a stroll in the "wild" and if I see something worthy for a good shot, I will take it.<br>
@@ -234,18 +98,18 @@
 	<hr>
 	<!--Intro picture-->
 		<fieldset>
-			<legend class="text-tan" style="font-family: cursive;">Myself with my pride and joy</legend>
+			<legend class="text-tan">Myself with my pride and joy</legend>
 			<img src="https://i.postimg.cc/gcT9Gb0s/IMG-0238-1.jpg" alt="Me with my car">
 		</fieldset>
 	<!--Intro picture end-->
 	
 	<!--Good advice recipe-->
-		<div class="text-center text-tan" style="font-family: cursive;">
+		<div class="text-center text-tan">
 			<fieldset>
 					<h1>Ingredients for good photos and videos</h1>
-				<hr style="width: 15%;">
+				<hr class="width-15">
 				<br>
-					<div style="font-size: 20px;">A photographer<br>
+					<div class="font-20">A photographer<br>
 						A fair camera or smartphone<br>
 						Good content<br>
 						Some tech device for trick shots<br>
@@ -257,22 +121,22 @@
 	<!--Good advice recipe end-->
 	<hr>
 	<!--Projects-->
-	<section class="text-center text-tan" style="font-family: cursive;">
-		<table id="projects" style="width: 100%;">
+	<section class="text-center text-tan">
+		<table id="projects" class="width-full">
 		<tr>
 			<td>
 				<table style="width: 80%;" class="center">
 					<tr>
 						<td style="height: 180px;">
-							<h2 style="font-family: cursive; font-size: 40px; color: #E4DCD1;">
+							<h2 style="font-size: 40px;">
 								Projects
 							</h2>
-								<hr style="width: 15%;">
+								<hr class="width-15">
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<div style="font-family: cursive; font-size: 20px; color: #E4DCD1;">								
+							<div style="font-size: 20px;">								
 								<details>
                       				<summary>Photo- and videography</summary>
 										<p>
@@ -312,75 +176,75 @@
 		<br><br><br><br><br><br>
 <hr>
 	<!--Contact sheet-->
-	<table id="contact" style="width: 100%;" class="center">
+	<table id="contact"  class="center">
         <tr>
             <td>
                 <table style="padding: 5px; border-spacing: 30px; width: 100%;" class="center">
         			<tr>
             			<td	style="height: 180px; text-align: center;">
-                    		<div style="font-family: cursive; font-size: 40px; color: #E4DCD1;">
+                    		<div class="font-40-tan">
                     			<strong>Contact</strong>
 							</div>
-                  <hr style="width: 15%;">
+                  <hr class="width-15">
             			</td>
         			</tr>
         			<tr>
             			<td>
                 			<table style="width: 40%; padding: 20px; border-spacing: 20px; background-color: #E4DCD1;">
         						<tr>
-            						<td style="width: 30%;"><br>
-                						<div style="font-family: cursive; font-size: 20px; color: #000;">
+            						<td class="width-30"><br>
+                						<div class="font-20">
                     						Name
 										</div>
             						</td>
-            						<td style="width: 70%;"><br>
-                						<div style="font-family: cursive; font-size: 20px; color: #fff;">
+            						<td class="width-70"><br>
+                						<div class="font-20">
                     						<input type="text" size="40" placeholder="John Doe">
 										</div>
             						</td>
         						</tr>
         						<tr>
-            						<td style="width: 30%;">
-                						<div style="font-family: cursive; font-size: 20px; color: #000;">
+            						<td class="width-30">
+                						<div class="font-20">
                     						Email
 										</div>
             						</td>
-            						<td style="width: 70%;">
-                						<div style="font-family: cursive; font-size: 20px; color: #fff;">
+            						<td class="width-70">
+                						<div class="font-20">
                     						<input type="email" size="40" placeholder="Your Email" required>
 										</div>
             						</td>
         						</tr>
         						<tr>
-            						<td style="width: 30%;">
-                						<div style="font-family: cursive; font-size: 20px; color: #000;">
+            						<td class="width-30">
+                						<div class="font-20">
                     						Number
 										</div>
             						</td>
-            						<td style="width: 70%;">
-                						<div style="font-family: cursive; font-size: 20px; color: #fff;">
+            						<td class="width-70">
+                						<div class="font-20">
                     						<input type="tel" size="12" placeholder="Mobile number">
 										</div>
             						</td>
         						</tr>
         						<tr>
-            						<td style="width: 30%;">
-                						<div style="font-family: cursive; font-size: 20px; color: #000;">
+            						<td class="width-30">
+                						<div class="font-20">
                     						Message
 										</div>
             						</td>
-            						<td style="width: 70%;">
-                						<div style="font-family: cursive; font-size: 20px; color: #fff;">
+            						<td class="width-70">
+                						<div class="font-20">
                     						<textarea rows="5" cols="90">
                     						</textarea>
                 						</div>
             						</td>
         						</tr>
         						<tr>
-            						<td style="width: 30%;">
+            						<td class="width-30">
             						</td>
-            						<td style="width: 70%;">
-                						<button style="font-family: cursive; font-size: 20px; color: #000;" type="Submit">
+            						<td class="width-70">
+                						<button class="font-20" type="Submit">
                     						<b>Send it!</b>
 										</button>
                 							<br><br>
