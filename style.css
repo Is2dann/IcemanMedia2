@@ -9,8 +9,8 @@ body {
 
 img {
     display: block;
-      margin-left: auto;
-      margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 100%;
     height: auto;
 }
@@ -58,7 +58,7 @@ img {
 }
 
 hr {
-      background-color: #E4DCD1;
+    background-color: #E4DCD1;
     border-radius: 15px;
     height: 8px;
 }
@@ -74,7 +74,6 @@ hr .width-90 {
       border: 0;
       line-height: 2.5;
       padding: 10px 20px;
-      font-family: cursive;
       font-size: 1rem;
       text-align: center;
       color: #000;
@@ -114,14 +113,12 @@ details > summary {
     margin-top: 100vh;
     text-decoration: none;
     padding: 10px;
-    font-family: cursive;
     color: #000;
     background: #E4DCD1;
     border-radius: 50px;
 }
 
 footer {
-    font-family: cursive;
     font-size: 25px;
     text-align: center;
     padding: 1px;
@@ -145,7 +142,8 @@ input:focus {
 
 * {
     font-family: cursive;
-}
+} 
+/* I wanted to use this font for the whole website. This is why I used the * symbol. */
 
 .font-30 {
     font-size: 30px;
@@ -163,4 +161,9 @@ input:focus {
 
 .font-20 {
     font-size: 20px;
+}
+
+.contact-box {
+    width: 30vw;
+    height: 30vw;
 }
