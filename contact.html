@@ -7,16 +7,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
-    <title>Iceman Media -Photo- and Videography</title>
+    <title>Iceman Media -Photo- and Videography contact sheet</title>
 </head>
 <body>
-    <form action="https://formdump.codeinstitute.net" method="POST">
+    <!--Iceman Media header start-->			
+    <table id="header">
+		<tr>
+		  <td>
+			  <table id="first">
+		  <tr>
+		  <td>
+		  </td>
+		  <td>
+			  <p class="font-2vw">
+				  <b>Iceman Media</b>
+			  </p>
+		  </td>
+		  <td class="width-15">
+		  </td>
+			  <td>
+				  <a href="index.html" class="none" aria-label="Jump to the introduction">
+					  <p class="font-2vw">
+						 <b>Who I am...</b>
+					  </p>
+				  </a>
+			  </td>
+		  <td class="width-15">
+		  </td>
+			  <td>
+				  <a href="index.html #projects" class="none" aria-label="Jump to the projects">
+					  <p class="font-2vw">
+						 <b>Projects</b>
+					  </p>
+				  </a>
+			  </td>
+		  <td class="width-15">
+		  </td>
+			  <td>
+				  <a href="gallery.html" class="none" aria-label="Jump to the gallery">
+					  <p class="font-2vw">
+						 <b>Gallery</b>
+					  </p>
+				  </a>
+			  </td>
+			<td class="width-15">
+		  </td>
+			  <td>
+				  <a href="contact.html" class="none" aria-label="Jump to the contact section">
+					  <p class="font-2vw">
+						 <b>Contact here</b>
+					  </p>
+				  </a>
+			  </td>
+			</tr>
+		  </table>
+	  </td>
+  </tr>
+</table>
+<!--Header end-->
+	<hr>
+<!--Contact form start-->
+	<form action="thankyou.html" method="POST">
     <table id="contact"  class="center">
         <tr>
             <td>
-                <table style="padding: 5px; border-spacing: 30px; width: 100%;" class="center">
+                <table class="center table-contact-1">
         			<tr>
-            			<td	style="height: 180px; text-align: center;">
+            			<td	class="text-center height-180">
                     		<div class="font-40-tan">
                     			<strong>Contact</strong>
 							</div>
@@ -25,7 +82,7 @@
         			</tr>
         			<tr>
             			<td class="contact-box">
-                			<table style="width: 40%; padding: 20px; border-spacing: 20px; border-radius: 20px; background-color: #E4DCD1;">
+                			<table class="table-contact-2">
         						<tr>
             						<td class="width-30"><br>
                 						<div class="font-20">
@@ -34,7 +91,7 @@
             						</td>
             						<td class="width-70"><br>
                 						<div class="font-20">
-                    						<input type="text" size="40" placeholder="John Doe">
+                    						<input type="text" size="40" placeholder="John Doe" required>
 										</div>
             						</td>
         						</tr>
@@ -58,7 +115,7 @@
             						</td>
             						<td class="width-70">
                 						<div class="font-20">
-                    						<input type="tel" size="12" placeholder="Mobile number">
+                    						<input type="tel" size="12" placeholder="Mobile number" required>
 										</div>
             						</td>
         						</tr>
@@ -70,7 +127,7 @@
             						</td>
             						<td class="width-70">
                 						<div class="font-20">
-                    						<textarea rows="5" cols="50">
+                    						<textarea rows="5" cols="50" required>
                     						</textarea>
                 						</div>
             						</td>
@@ -83,7 +140,8 @@
                     						<b>Send it!</b>
 										</button>
                 							<br><br>
-										<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d38124.221023092825!2d-2.7011908!3d53.3295821!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1705186509081!5m2!1sen!2suk" width="600" height="300" style="border:0;" allowfullscreen=""></iframe>
+										<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d38124.221023092825!2d-2.7011908!3d53.3295821!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1705186509081!5m2!1sen!2suk"
+											class="map" width="600" height="300" style="border:0;" allowfullscreen=""></iframe>
 									</td>
         						</tr>
     						</table>
@@ -98,6 +156,14 @@
     	</tr>
 	</table>
     </form>
-
+	<!--Contact form end-->
+		<hr>
+	<!--Footer start-->
+	<footer>
+		<p>
+			Copyright © 2023 Iceman Media <br> All Right Reserved.
+		</p>
+	</footer>
+	<!--Footer end-->
 </body>
 </html>
