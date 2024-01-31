@@ -138,6 +138,13 @@ footer {
     background-color: #E4DCD1;
     color: #000;
     border-radius: 20px;
+    height: 200px;
+}
+
+.thankyoupage {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 a:active {
@@ -167,6 +174,10 @@ input:focus {
 .font-2vw {
     font-size: 1.5vw;
     text-decoration: none;
+}
+
+.font-40 {
+    font-size: 40px;
 }
 
 .font-50 {
@@ -281,3 +292,4 @@ div.desc {
     border-radius: 20px; 
     background-color: #E4DCD1;
 }
+
