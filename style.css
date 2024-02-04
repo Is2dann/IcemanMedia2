@@ -63,7 +63,37 @@ hr .width-90 {
     height: 8px;
     width: 10px;
 }
+<<<<<<< HEAD
 
+=======
+/* This is styling the links to look like buttons. */
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #000;
+    text-shadow: 1px 1px 1px #fff;
+    border-radius: 10px;
+    background-color: #E4DCD1;
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow:
+        inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+        inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+    align-items: center;
+  }
+
+.styled:hover {
+      background-color: rgb(255, 255, 255);
+  }
+
+.styled:active {
+      box-shadow:
+          inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+          inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+  }
+>>>>>>> 109b01f27c55e822097557cc9f884c545cba4e38
 
 .center {
     margin-left: auto;
@@ -94,13 +124,18 @@ footer {
     background-color: #E4DCD1;
     color: #000;
     border-radius: 20px;
+<<<<<<< HEAD
     height: 180px;
+=======
+    height: 200px;
+>>>>>>> 109b01f27c55e822097557cc9f884c545cba4e38
 }
 
 .thankyoupage {
     position: fixed;
     bottom: 0;
     width: 100%;
+<<<<<<< HEAD
 }
 
 /* Links */
@@ -130,16 +165,36 @@ footer {
       box-shadow:
           inset -2px -2px 3px rgba(255, 255, 255, 0.6),
           inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+=======
+>>>>>>> 109b01f27c55e822097557cc9f884c545cba4e38
 }
 
 a:active {
     color: #000;
+<<<<<<< HEAD
     text-decoration: none;
 }
 
 a:link {
     color: #000;
     text-decoration: none;
+=======
+    text-decoration: none;
+}
+
+a:link {
+    color: #000;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+input:focus {
+    background-color: rgb(142, 139, 125);
+>>>>>>> 109b01f27c55e822097557cc9f884c545cba4e38
 }
 
 a:visited {
@@ -270,6 +325,7 @@ input[type=submit]:hover {
     background-color: aqua;
 }
 
+<<<<<<< HEAD
 input:focus {
     background-color: rgb(167, 165, 152);
 }
@@ -319,3 +375,13 @@ button:hover {
       margin-top: 0;
     }
 }
+=======
+.table-contact-2 {
+    width: 40%; 
+    padding: 20px; 
+    border-spacing: 20px; 
+    border-radius: 20px; 
+    background-color: #E4DCD1;
+}
+
+>>>>>>> 109b01f27c55e822097557cc9f884c545cba4e38
