@@ -1,31 +1,18 @@
 html {
     height: auto;
     width: auto;
-  }
+}
+
 body {
     background-image: url('https://i.postimg.cc/pLVXT9XY/istockphoto-639173848-612x612.jpg');
     margin: auto;
     background-color: #303030;
 }
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-    height: auto;
-    border-radius: 20px;
-}
-
 #header {
     width: 100%;
     background-color: #e4dcd1;
     border-radius: 20px;
-}
-
-#first {
-    width: 90%;
-    align-self: center;
 }
 
 .width-15 {
@@ -64,10 +51,6 @@ img {
     color: white;
 }
 
-.bold {
-    font-weight: bold;
-}
-
 hr {
     background-color: #E4DCD1;
     border-radius: 15px;
@@ -81,31 +64,6 @@ hr .width-90 {
     width: 10px;
 }
 
-.styled {
-      border: 0;
-      line-height: 2.5;
-      padding: 10px 20px;
-      font-size: 1rem;
-      text-align: center;
-      color: #000;
-      text-shadow: 1px 1px 1px #fff;
-      border-radius: 10px;
-      background-color: #E4DCD1;
-      background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
-      box-shadow:
-          inset 2px 2px 3px rgba(255, 255, 255, 0.6),
-          inset -2px -2px 3px rgba(0, 0, 0, 0.6);
-  }
-
-.styled:hover {
-      background-color: rgb(255, 255, 255);
-  }
-
-.styled:active {
-      box-shadow:
-          inset -2px -2px 3px rgba(255, 255, 255, 0.6),
-          inset 2px 2px 3px rgba(0, 0, 0, 0.6);
-  }
 
 .center {
     margin-left: auto;
@@ -130,32 +88,76 @@ details > summary {
 }
 
 footer {
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
-    padding: 1px;
+    padding: 25px 5px 5px 5px;
     background-color: #E4DCD1;
     color: #000;
     border-radius: 20px;
+    height: 180px;
 }
 
-a:hover {
-    color: aqua;
-    text-decoration: none;
+.thankyoupage {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Links */
+/* This is styling the links to look like buttons. */
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #000;
+    text-shadow: 1px 1px 1px #fff;
+    border-radius: 10px;
+    background-color: #E4DCD1;
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow:
+        inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+        inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+    align-items: center;
+}
+
+.styled:hover {
+      background-color: rgb(255, 255, 255);
+}
+
+.styled:active {
+      box-shadow:
+          inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+          inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
 a:active {
-    color: black;
+    color: #000;
     text-decoration: none;
 }
 
-input:focus {
-    background-color: aqua;
+a:link {
+    color: #000;
+    text-decoration: none;
 }
 
+a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+.inline {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+
+/* Fonts and their sizes */
 * {
     font-family: cursive;
 } 
-/* I wanted to use this font for the whole website. This is why I used the * symbol. */
+/* I wanted to use this font for the whole website. */
 
 .font-2vw {
     font-size: 1.5vw;
@@ -166,8 +168,12 @@ input:focus {
     font-size: 40px;
 }
 
-.font-40-tan {
-    font-size: 40px;
+.font-50 {
+    font-size: 50px;
+}
+
+.font-50-tan {
+    font-size: 50px;
     color: #E4DCD1;
 }
 
@@ -179,42 +185,19 @@ input:focus {
     font-size: 25px;
 }
 
-.contact-box {
-    width: 30vw;
-    height: 30vh;
+/* Image styling */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
     border-radius: 20px;
 }
 
-.map {
-    border-radius: 20px;
-    width: 100%;
-    height: 150px;
-}
-textarea {
-    border-radius: 20px;
-}
-
-input[type=text],
-input[type=email],
-input[type=tel] {
-    border-radius: 20px;
-}
-
-button {
-    border-radius: 20px;
-}
-
-button:focus {
-    background-color: aqua;
-}
-
-button:hover {
-    color: aqua;
-    text-decoration: none;
-}
-  
 div.pics:hover {
-    transform: scale(1.5);
+    transform: scale(1.3);
+    transition: all .3s ease-in-out;
 }
   
 div.pics img {
@@ -225,10 +208,6 @@ div.pics img {
 div.desc {
     padding: 15px;
     text-align: center;
-}
-  
-* {
-    box-sizing: border-box;
 }
   
 .responsive {
@@ -260,16 +239,83 @@ div.desc {
     text-decoration: none;
 }
 
-.table-contact-1 {
-    padding: 5px; 
-    border-spacing: 30px; 
+/* Contact form styling */
+* {
+    box-sizing: border-box;
+}
+  
+input[type=text], input[type=email], input[type=tel], textarea {
     width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    resize: vertical;
+}
+  
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+  
+input[type=submit] {
+    background-color: #e4dcd1;
+    color: #000;
+    padding: 12px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    float: right;
+}
+  
+input[type=submit]:hover {
+    background-color: aqua;
 }
 
-.table-contact-2 {
-    width: 40%; 
-    padding: 20px; 
-    border-spacing: 20px; 
-    border-radius: 20px; 
-    background-color: #E4DCD1;
+input:focus {
+    background-color: rgb(167, 165, 152);
+}
+  
+.container {
+    border-radius: 20px;
+    background-color: #e4dcd1;
+    padding: 20px;
+}
+  
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+  
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+button {
+    border-radius: 20px;
+}
+
+button:focus {
+    background-color: aqua;
+}
+
+button:hover {
+    color: aqua;
+    text-decoration: none;
+}
+  
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
 }
