@@ -8,7 +8,7 @@ For more visit here: https://is2dann.github.io/IcemanMedia2
 
 ## Features
 
-Typography and Color scheme
+-_Typography and Color scheme_
 
 I wanted to go simple yet stylish on the design.
 The whole website uses only one font (cursive) and the color scheme is basically tan (#E4DCD1) and black (#000000).
@@ -34,4 +34,16 @@ Has a black brick background and a hint of (aqua) resembling "ice" to spice up s
     - A short quote from a famous photographer.
 
 ![Welcome Logo](Media/welcome-logo.png)
+
+-_The introduction section_
+* The "About me" section contains a short introduction, hence the title.
+* It also has 2 link to 2 separate Instagram profiles as my main reaching point for all media. Basically Instagram centers most of my media, therefore I code this section to center the links.
+* Both links styled as a button, and works like a normal link would. Also opens in a new tab. Although the links are not blue, nor will turn purple after visit.
+
+![About me](Media/about-me.png)
+
+* Below this a framed picture of me can be found.
+
+![Intro pic](Media/intro-pic.png)
+
     
