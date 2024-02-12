@@ -11,14 +11,14 @@ Testing devices:
 
 | Feature | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- |
-| The title leads to index page | Clicking the title on all pages | The index page opened from every page | Pass |
-| Navigationbar | Clicking all navigation elements | All navigation elements leads to the chosen page | Pass |
+| The title leads to index page | On click | The index page opened from every page | Pass |
+| Navigationbar | Clicking all navigation elements | All navigation elements leads to the relevant page or section | Pass |
 
 ## Footer
 
 | Feature | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- |
-| Buttons are links | Clicking on them | Social sites open on new tab | Pass |
+| Buttons are links | On click | Social sites open on new tab | Pass |
 
 ## Index page
 
