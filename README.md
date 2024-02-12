@@ -6,7 +6,7 @@ For more visit here: https://is2dann.github.io/IcemanMedia2
 
 ![Landing page](Media/full-landing.png)
 
-## Features
+# Features
 
 Typography and Color scheme
 
@@ -14,7 +14,7 @@ Typography and Color scheme
     The whole website uses only one font (cursive) and the color scheme is basically tan (#E4DCD1) and black (#000000).
     Has a black brick background and a hint of (aqua) resembling "ice" to spice up some parts (see "send it" button).
 
-### Existing features
+# Existing features
 
     -_Header as navigation bar_
         - Includes 5 links total. 
@@ -24,7 +24,7 @@ Typography and Color scheme
             - The 4th page is the "Contact here"
         - All links are responsive and consistent on all 4 pages, plus on the "Thank You" page (which can be seen through filling out the contact form).
 
-    ![Header bar](Media/header-bar.png)
+![Header bar](Media/header-bar.png)
     
     
     -_Header part 2_
@@ -33,5 +33,5 @@ Typography and Color scheme
             - A welcome message.
             - A short quote from a famous photographer.
 
-    ![Welcome Logo](Media/welcome-logo.png)
+![Welcome Logo](Media/welcome-logo.png)
     
