@@ -15,6 +15,7 @@ For more visit here: https://is2dann.github.io/IcemanMedia2
 I wanted to go simple yet stylish on the design.
 The whole website uses only one font (cursive) and the color scheme is basically tan (#E4DCD1) and black (#000000).
 Has a black brick background and a hint of (aqua) resembling "ice" to spice up some parts (see "send it" button).
+__Note: The font has been changed to Papyrus for compatibility reasons.__
 
 ### Existing features
 
@@ -182,3 +183,5 @@ Also have to mention that the table format header idea is based on one of the wo
 * Just like the video as well.
 * The background image is the only image i borrowed from i.postimg.cc
 
+## Acknowledgments
+**Special thanks to my mentor Daniel Hamilton who helped a lot so far, with setting up programs, giving tips about the page and a lot more**
